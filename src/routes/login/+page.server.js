@@ -10,8 +10,6 @@ export const actions = {
         {
             cookies.set("estado_login", "activo", { maxAge:10 });
             throw redirect(302, '/settings');
-        }   
-        cookies.set("estado_login", "activo", { maxAge:10 });  
-        throw redirect(302, '/settings');       
+        } 
     }
 };
