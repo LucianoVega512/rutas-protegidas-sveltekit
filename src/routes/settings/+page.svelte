@@ -1,20 +1,7 @@
 <script>
-    export let data;
-
-    let valor = data.dato_1.nombre
-    
-    //Enviar dato a la API
-    function enviar(){
-        console.log(valor);
-    }
 </script>
 
-<p>Setting</p>
+<h3>Configuracion</h3>
 
-<!-- <form method="POST"> -->
-    <label>
-        Email
-        <input name="email" type="text" bind:value={valor}/>
-    </label>
-    <button on:click={enviar}>Enviar</button>
-<!-- </form> -->
+<p>Esta pagina esta protegida</p>
+<p>Por un tiempo de aporx 10 segundos</p>
